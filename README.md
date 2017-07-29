@@ -2,7 +2,7 @@ utils using django and mongo engine to make django db operations validated and h
 
   	DB = DjangoMongoUtils() #load models and connect to db
 	
-	# collection_name = 'MoneyData'
+	# collection_name = <DB model/collection name>
 	# logging.info("collection_name: '{}'\n".format(collection_name))
 
 
